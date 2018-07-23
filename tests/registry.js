@@ -1,5 +1,6 @@
 var assert = require('assert'),
-    registry = require('../lib/registry');
+    registry = require('../lib/registry'),
+    mockery = require('mockery');
 
 
 describe('registry', function () {
@@ -37,5 +38,52 @@ describe('registry', function () {
             });
         });
     });
-});
 
+    describe('get() retries', function () {
+        var invocations = 0;
+        var requestMock = {
+            get: function(opts, cb) {
+                invocations++
+
+                assert.deepEqual(opts, {
+                    url: 'https://replicate.npmjs.com/registry/async',
+                    json: true,
+                    headers: {
+                        'user-agent': 'npm-registry-follower'
+                    }
+                });
+
+                if (invocations === 1) {
+                    return cb(new Error('Aaaargh'));
+                }
+
+                cb(null, null, require('./async.json'));
+            }
+        };
+
+        before(function () {
+            mockery.registerMock('request', requestMock);
+            mockery.enable({
+                useCleanCache: true,
+                warnOnReplace: false,
+                warnOnUnregistered: false
+            });
+            registry = require('../lib/registry');
+        });
+
+        after(function () {
+            mockery.deregisterAll();
+            mockery.disable();
+        });
+
+        it('should retry when getting data fails', function (done) {
+            registry.get({id: 'async'}, function (err, json, change) {
+                assert.ok(!err);
+                assert.equal(json.name, 'async');
+                assert.deepEqual(change, {id: 'async'});
+                assert.equal(invocations, 2)
+                done();
+            }, 5);
+        });
+    })
+});
