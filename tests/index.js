@@ -96,4 +96,13 @@ describe('follow-registry', function(){
             handler: () => {}
         });
     });
+
+    it('should survive null sequence file implementation', function(done){
+        follow({
+            seq: null,
+            handler: () => {
+                done();
+            }
+        });
+    });
 });
