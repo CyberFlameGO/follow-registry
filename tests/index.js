@@ -85,5 +85,15 @@ describe('follow-registry', function(){
             }
         });
     });
-});
 
+    it('should allow custom sequence file implementation', function(done){
+        follow({
+            seq: {
+                read: () => {
+                    done();
+                }
+            },
+            handler: () => {}
+        });
+    });
+});
