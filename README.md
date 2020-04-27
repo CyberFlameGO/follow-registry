@@ -1,11 +1,12 @@
 # @achingbrain/follow-registry <!-- omit in toc -->
 
-> Follows the npm registry and emits change objects when new modules are published
+[![Build Status](https://travis-ci.org/achingbrain/follow-registry.svg?branch=master)](https://travis-ci.org/achingbrain/follow-registry) [![Dependency Status](https://david-dm.org/achingbrain/follow-registry/status.svg)](https://david-dm.org/achingbrain/follow-registry)
 
-Requires node v13.6.0 or above
+> Follows the npm registry and emits change objects when new modules are published
 
 - [Usage](#usage)
 - [Changes feed](#changes-feed)
+- [Acknowledgements](#acknowledgements)
 
 ## Usage
 
@@ -68,6 +69,6 @@ Instead of using the "standard" feed, this pulls the feed and breaks up the data
         json: .. metadata retrieved from the registry
     }
 
-## Acknowledgements
+## Acknowledgements
 
 Forked from [davglass/follow-registry](https://github.com/davglass/follow-registry).
