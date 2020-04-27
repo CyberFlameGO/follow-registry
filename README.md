@@ -24,9 +24,6 @@ const options = {
   // where to get module details from
   registry: 'https://registry.npmjs.com',
 
-   // where to store the sequence file
-  seqFile: '/tmp/registry-follow.seq',
-
   // how many sets of metadata to request concurrently
   concurrency: 50,
 
@@ -43,7 +40,14 @@ const options = {
   metadataRetryBackoff: 5000,
 
   // override which seq value to start streaming changes from
-  since: undefined
+  since: undefined,
+
+  // override sequence file storage
+  seq: {
+    async read (), // returns a seq number
+    async write (seq), // stores a seq number
+    async reset () // resets the seq number
+  }
 }
 
 for await (const { change, done } of followRegistry(options)) {
