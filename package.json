@@ -1,6 +1,6 @@
 {
   "name": "@achingbrain/follow-registry",
-  "version": "3.2.1",
+  "version": "4.0.0",
   "description": "npm registry follower",
   "main": "lib/index.js",
   "scripts": {
