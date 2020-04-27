@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/achingbrain/follow-registry.svg?branch=master)](https://travis-ci.org/achingbrain/follow-registry) [![Dependency Status](https://david-dm.org/achingbrain/follow-registry/status.svg)](https://david-dm.org/achingbrain/follow-registry)
 
-> Follows the npm registry and emits change objects when new modules are published
+> Follows the npm registry and yields change objects when new modules are published
 
 - [Usage](#usage)
 - [Changes feed](#changes-feed)
@@ -52,8 +52,8 @@ for await (const { change, done } of followRegistry(options)) {
 
   // signal we are done processing this change
   //
-  // Important - if `done` is not called, the change will be reprocessed
-  // the next time `followRegistry` is run
+  // Important - if `done` is not called, the change will be
+  // reprocessed the next time `followRegistry` is run
   await done()
 }
 ```
