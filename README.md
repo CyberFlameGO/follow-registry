@@ -60,6 +60,12 @@ for await (const { change, done } of followRegistry(options)) {
   // reprocessed the next time `followRegistry` is run
   await done()
 }
+
+// read the last sucessfully processed seq
+const seq = await follow.seq(options)
+
+// reset the last sucessfully processed seq
+await follow.reset(options)
 ```
 
 ## Changes feed

@@ -124,4 +124,13 @@ describe('follow-registry', function () {
       }
     })
   })
+
+  describe('reset', () => {
+    it('should reset the seq number', async () => {
+      await follow.reset()
+      const res = await follow.seq()
+
+      expect(res).to.equal(0)
+    })
+  })
 })

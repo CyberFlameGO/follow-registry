@@ -4,7 +4,7 @@ const followRegistry = require('./lib')
 
 async function main () {
   for await (const { change, done } of followRegistry()) {
-    console.info(change.name, 'was updated')
+    console.info(change.name, 'was updated', change.seq)
 
     await done()
   }
