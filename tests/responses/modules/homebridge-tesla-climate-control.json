@@ -1,0 +1,57 @@
+{
+  "name": "homebridge-tesla-climate-control",
+  "dist-tags": {
+    "latest": "0.1.2"
+  },
+  "versions": {
+    "0.1.0": {
+      "name": "homebridge-tesla-climate-control",
+      "version": "0.1.0",
+      "dependencies": {
+        "teslams": "^1.1.6",
+        "cache-manager": ">=2.4.0"
+      },
+      "dist": {
+        "shasum": "9b30a05252e034cc46861c92249fc520f1727d09",
+        "tarball": "https://registry.npmjs.org/homebridge-tesla-climate-control/-/homebridge-tesla-climate-control-0.1.0.tgz"
+      },
+      "engines": {
+        "node": ">=0.12.0",
+        "homebridge": ">=0.2.0"
+      }
+    },
+    "0.1.1": {
+      "name": "homebridge-tesla-climate-control",
+      "version": "0.1.1",
+      "dependencies": {
+        "cache-manager": ">=2.4.0",
+        "teslams": "^1.1.6"
+      },
+      "dist": {
+        "shasum": "3ac470c248fc6340fd2959ce90f6aaba1876cf88",
+        "tarball": "https://registry.npmjs.org/homebridge-tesla-climate-control/-/homebridge-tesla-climate-control-0.1.1.tgz"
+      },
+      "engines": {
+        "homebridge": ">=0.2.0",
+        "node": ">=0.12.0"
+      }
+    },
+    "0.1.2": {
+      "name": "homebridge-tesla-climate-control",
+      "version": "0.1.2",
+      "dependencies": {
+        "cache-manager": ">=2.4.0",
+        "teslams": "^1.1.6"
+      },
+      "dist": {
+        "shasum": "8160c9371482ad5fae9d7144003ce91d14d3871b",
+        "tarball": "https://registry.npmjs.org/homebridge-tesla-climate-control/-/homebridge-tesla-climate-control-0.1.2.tgz"
+      },
+      "engines": {
+        "homebridge": ">=0.2.0",
+        "node": ">=0.12.0"
+      }
+    }
+  },
+  "modified": "2017-02-21T23:02:41.792Z"
+}

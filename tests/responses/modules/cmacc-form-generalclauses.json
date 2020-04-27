@@ -1,0 +1,25 @@
+{
+  "name": "cmacc-form-generalclauses",
+  "dist-tags": {
+    "latest": "1.1.0"
+  },
+  "versions": {
+    "1.0.2": {
+      "name": "cmacc-form-generalclauses",
+      "version": "1.0.2",
+      "dist": {
+        "shasum": "2b1e372ac61101626227637551fd19fd84c1abe6",
+        "tarball": "https://registry.npmjs.org/cmacc-form-generalclauses/-/cmacc-form-generalclauses-1.0.2.tgz"
+      }
+    },
+    "1.1.0": {
+      "name": "cmacc-form-generalclauses",
+      "version": "1.1.0",
+      "dist": {
+        "shasum": "9f6c0a2e33523dc7ab3e1f39f446bab2d40d06cf",
+        "tarball": "https://registry.npmjs.org/cmacc-form-generalclauses/-/cmacc-form-generalclauses-1.1.0.tgz"
+      }
+    }
+  },
+  "modified": "2017-02-22T15:14:23.000Z"
+}

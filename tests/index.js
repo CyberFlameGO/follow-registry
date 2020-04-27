@@ -1,108 +1,127 @@
-var assert = require('assert'),
-    mockery = require('mockery');
+/* eslint-env mocha */
+'use strict'
 
-var noop = function() {};
+const chai = require('chai')
+chai.use(require('chai-as-promised'))
+chai.use(require('dirty-chai'))
+const { expect } = chai
+const fs = require('fs-extra')
+const nock = require('nock')
+const follow = require('../')
 
-var followMock = function(opts, change) {
-    process.nextTick(function() {
-        change(null, {id: 'async', changes: [{rev: '806-539c2faa42188c0d254280e9afaa0c6e'}]});
-    });
-    return {
-        pause: noop,
-        resume: noop
-    };
-};
-var asyncJson = require('./async.json');
-asyncJson['dist-tags'].foobar = '100.123.456'; // bad version
-var requestMock = {
-    get: function(opts, cb){
-        assert.deepEqual(opts, {
-            url: 'https://replicate.npmjs.com/registry/async',
-            json: true,
-            headers: {
-                'user-agent': 'npm-registry-follower'
-            }
-        });
-        cb(null, null, asyncJson);
-    }
-};
-var asyncMock = {
-    queue: function(handler, concurrency) {
-        assert.equal(concurrency, 100);
-        return {
-            handler: handler,
-            push: function(change) {
-                handler(change, noop);
-            }
-        };
-    }
-};
+describe('follow-registry', function () {
+  let replicationScope
+  let registryScope
 
-var follow;
+  beforeEach(() => {
+    nock.cleanAll()
 
-describe('follow-registry', function(){
-    before(function(){
-        mockery.registerMock('follow', followMock);
-        mockery.registerMock('request', requestMock);
-        mockery.registerMock('async', asyncMock);
-        mockery.enable({
-            useCleanCache: true,
-            warnOnReplace: false,
-            warnOnUnregistered: false
-        });
-        follow = require('../');
-    });
-    after(function(){
-        mockery.deregisterAll();
-        mockery.disable();
-    });
+    registryScope = nock('https://registry.npmjs.com')
+      .get('/bayes-test-20170221')
+      .reply(200, fs.readFileSync(`${__dirname}/responses/modules/bayes-test-20170221.json`))
+      .get('/cmacc-form-generalclauses')
+      .reply(200, fs.readFileSync(`${__dirname}/responses/modules/cmacc-form-generalclauses.json`))
+      .get('/fast-stream')
+      .reply(200, fs.readFileSync(`${__dirname}/responses/modules/fast-stream.json`))
+      .get('/fnp')
+      .reply(200, fs.readFileSync(`${__dirname}/responses/modules/fnp.json`))
+      .get('/homebridge-tesla-climate-control')
+      .reply(200, fs.readFileSync(`${__dirname}/responses/modules/homebridge-tesla-climate-control.json`))
+      .get('/huffman.js')
+      .reply(200, fs.readFileSync(`${__dirname}/responses/modules/huffman.js.json`))
+      .get('/iebc')
+      .reply(200, fs.readFileSync(`${__dirname}/responses/modules/iebc.json`))
+      .get('/@jag82/note')
+      .reply(200, fs.readFileSync(`${__dirname}/responses/modules/jag82-note.json`))
+      .get('/@kgarza/citeproc-doi')
+      .reply(200, fs.readFileSync(`${__dirname}/responses/modules/kgarza-citeproc-doi.json`))
+      .get('/@lhechenberger/automated-release')
+      .reply(200, fs.readFileSync(`${__dirname}/responses/modules/lhechenberger-automated-release.json`))
+      .get('/lopezdonaque-test')
+      .reply(200, fs.readFileSync(`${__dirname}/responses/modules/lopezdonaque-test.json`))
+      .get('/mag-app-youtube-2.0.0beta-3')
+      .reply(200, fs.readFileSync(`${__dirname}/responses/modules/mag-app-youtube-2.0.0beta-3.json`))
+      .get('/michael-test-20170221')
+      .reply(200, fs.readFileSync(`${__dirname}/responses/modules/michael-test-20170221.json`))
+      .get('/nezha-cli')
+      .reply(200, fs.readFileSync(`${__dirname}/responses/modules/nezha-cli.json`))
+      .get('/ng2-material-dropdown-fix')
+      .reply(200, fs.readFileSync(`${__dirname}/responses/modules/ng2-material-dropdown-fix.json`))
+      .get('/postcss-french-stylesheets')
+      .reply(200, fs.readFileSync(`${__dirname}/responses/modules/postcss-french-stylesheets.json`))
+      .get('/rekog')
+      .reply(200, fs.readFileSync(`${__dirname}/responses/modules/rekog.json`))
+      .get('/sojs-script')
+      .reply(200, fs.readFileSync(`${__dirname}/responses/modules/sojs-script.json`))
+      .get('/state-component')
+      .reply(200, fs.readFileSync(`${__dirname}/responses/modules/state-component.json`))
+      .get('/vue-formidable')
+      .reply(200, fs.readFileSync(`${__dirname}/responses/modules/vue-formidable.json`))
+  })
 
-    it('should export one function', function(){
-        assert.equal(typeof follow, 'function');
-    });
+  describe('changes', () => {
+    beforeEach(() => {
+      replicationScope = nock('https://replicate.npmjs.com')
+        .get('/registry/_changes?since=12657&feed=continuous&heartbeat=30000')
+        .reply(200, fs.readFileSync(`${__dirname}/responses/changes-12657.ndjson`))
+    })
 
-    it('should start and return follower', function(done) {
-        follow({handler: noop}, function(f){
-            assert(f);
-            done();
-        });
-    });
+    it('should emit changes', async () => {
+      let changes = 0
 
-    it('should follow, returning change and not reusing pointers', function(done){
-        follow({
-            handler: function(json, callback) {
-                assert(json);
+      for await (const { change, done } of follow({
+        since: 12657,
+        retries: 0,
+        concurrency: 10
+      })) {
+        expect(change).to.have.property('name').that.is.a('string')
+        expect(change).to.have.property('versions').that.is.an.instanceof(Array)
+        expect(change).to.have.property('tarballs').that.is.an.instanceof(Array)
 
-                json.versions.forEach(function(item) {
-                    var itemVersionObject = item.json;
-                    var rootVersionObject = json.json.versions[itemVersionObject.version];
-                    // Assert that json objects are distinct.
-                    assert.notStrictEqual(itemVersionObject, rootVersionObject,
-                        'Memory pointers are identical at "' + item.version + '"'
-                    );
-                });
-                done();
-            }
-        });
-    });
+        changes++
+        await done()
 
-    it('should allow custom sequence file implementation', function(done){
-        follow({
-            seq: {
-                read: () => {
-                    done();
-                }
-            },
-            handler: () => {}
-        });
-    });
+        if (changes === 20) {
+          expect(replicationScope.isDone()).to.be.true()
+          expect(registryScope.isDone()).to.be.true()
 
-    it('should survive null sequence file implementation', function(done){
-        follow({
-            seq: null,
-            handler: () => {
-                done();
-            }
-        });
-    });
-});
+          break
+        }
+      }
+    })
+  })
+
+  describe('inactivity timeout', () => {
+    beforeEach(() => {
+      replicationScope = nock('https://replicate.npmjs.com')
+        .get('/registry/_changes?since=12657&feed=continuous&heartbeat=30000')
+        .delayBody(2000)
+        .reply(200, '') // first response has no updates
+        .get('/registry/_changes?since=12657&feed=continuous&heartbeat=30000')
+        .reply(200, fs.readFileSync(`${__dirname}/responses/changes-12657.ndjson`))
+    })
+
+    it('should hit an inactivity timeeout', async () => {
+      let changes = 0
+
+      for await (const { done } of follow({
+        since: 12657,
+        retries: 0,
+        inactivityTimeout: 100,
+        inactivityBackoff: 10,
+        concurrency: 10
+      })) {
+        changes++
+
+        await done()
+
+        if (changes === 20) {
+          expect(replicationScope.isDone()).to.be.true()
+          expect(registryScope.isDone()).to.be.true()
+
+          break
+        }
+      }
+    })
+  })
+})

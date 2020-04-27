@@ -1,0 +1,42 @@
+{
+  "name": "iebc",
+  "dist-tags": {
+    "latest": "1.0.1"
+  },
+  "versions": {
+    "1.0.0": {
+      "name": "iebc",
+      "version": "1.0.0",
+      "dependencies": {
+        "request-promise": "^4.1.1"
+      },
+      "devDependencies": {
+        "@types/node": "^7.0.5",
+        "typescript": "^2.1.6",
+        "types/request-promise": "^4.1.1"
+      },
+      "dist": {
+        "shasum": "d70b773922459cad9f32cef2778699d75c8b43e0",
+        "tarball": "https://registry.npmjs.org/iebc/-/iebc-1.0.0.tgz"
+      }
+    },
+    "1.0.1": {
+      "name": "iebc",
+      "version": "1.0.1",
+      "dependencies": {
+        "request": "^2.79.0",
+        "request-promise": "^4.1.1"
+      },
+      "devDependencies": {
+        "@types/node": "^7.0.5",
+        "typescript": "^2.1.6",
+        "types/request-promise": "^4.1.1"
+      },
+      "dist": {
+        "shasum": "3bf1f8ced3e80b203a9eeb76f1fbc558f8a9dee9",
+        "tarball": "https://registry.npmjs.org/iebc/-/iebc-1.0.1.tgz"
+      }
+    }
+  },
+  "modified": "2017-02-23T11:32:07.236Z"
+}

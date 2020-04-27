@@ -1,0 +1,23 @@
+{
+  "db_name":"registry",
+  "doc_count":1262107,
+  "doc_del_count":48474,
+  "update_seq":12660,
+  "purge_seq":0,
+  "compact_running":false,
+  "disk_size":16347689191,
+  "other":{
+    "data_size":46064129094
+  },
+  "data_size":15565661040,
+  "sizes":{
+    "file":16347689191,
+    "active":15565661040,
+    "external":46064129094
+  },
+  "instance_start_time":"1587315775448231",
+  "disk_format_version":6,
+  "committed_update_seq":6289811,
+  "compacted_seq":6282989,
+  "uuid":"b39742d8adc3edcfa3a3540d4437b3be"
+}

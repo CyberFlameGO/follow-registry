@@ -1,0 +1,17 @@
+{
+  "name": "lopezdonaque-test",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": {
+    "1.0.0": {
+      "name": "lopezdonaque-test",
+      "version": "1.0.0",
+      "dist": {
+        "shasum": "62f45151f3b8bd6c346e566c9839c84bd7170dbe",
+        "tarball": "https://registry.npmjs.org/lopezdonaque-test/-/lopezdonaque-test-1.0.0.tgz"
+      }
+    }
+  },
+  "modified": "2017-02-23T11:19:39.379Z"
+}

@@ -1,0 +1,296 @@
+{
+  "name": "fast-stream",
+  "dist-tags": {
+    "latest": "2.2.2"
+  },
+  "versions": {
+    "1.0.0": {
+      "name": "fast-stream",
+      "version": "1.0.0",
+      "dist": {
+        "shasum": "ed22b5382ee62f7a521c40250beb2f3353160274",
+        "tarball": "https://registry.npmjs.org/fast-stream/-/fast-stream-1.0.0.tgz"
+      }
+    },
+    "1.0.1": {
+      "name": "fast-stream",
+      "version": "1.0.1",
+      "dist": {
+        "shasum": "93841e612008cadb15ab6a5174fb27d3f082fe7c",
+        "tarball": "https://registry.npmjs.org/fast-stream/-/fast-stream-1.0.1.tgz"
+      }
+    },
+    "1.0.2": {
+      "name": "fast-stream",
+      "version": "1.0.2",
+      "dist": {
+        "shasum": "aa552a1de84fb0753f38259d9f6574d3291eac76",
+        "tarball": "https://registry.npmjs.org/fast-stream/-/fast-stream-1.0.2.tgz"
+      }
+    },
+    "1.0.3": {
+      "name": "fast-stream",
+      "version": "1.0.3",
+      "dist": {
+        "shasum": "9aa1c3bb7f7b248f84040891e2146dff88559982",
+        "tarball": "https://registry.npmjs.org/fast-stream/-/fast-stream-1.0.3.tgz"
+      }
+    },
+    "1.0.4": {
+      "name": "fast-stream",
+      "version": "1.0.4",
+      "dist": {
+        "shasum": "8835c469b3afdf85a17c0d95fe80196550bf92aa",
+        "tarball": "https://registry.npmjs.org/fast-stream/-/fast-stream-1.0.4.tgz"
+      }
+    },
+    "1.0.5": {
+      "name": "fast-stream",
+      "version": "1.0.5",
+      "dist": {
+        "shasum": "aff422f421fef4d5d4d3a9fc7ae3996da91be1e7",
+        "tarball": "https://registry.npmjs.org/fast-stream/-/fast-stream-1.0.5.tgz"
+      }
+    },
+    "1.0.6": {
+      "name": "fast-stream",
+      "version": "1.0.6",
+      "dist": {
+        "shasum": "a1a142ccdea117f0ff5b73087e396a89bd2e3159",
+        "tarball": "https://registry.npmjs.org/fast-stream/-/fast-stream-1.0.6.tgz"
+      }
+    },
+    "1.1.0": {
+      "name": "fast-stream",
+      "version": "1.1.0",
+      "dist": {
+        "shasum": "653939eb807cf6ca8702f8b8997afad51c5860aa",
+        "tarball": "https://registry.npmjs.org/fast-stream/-/fast-stream-1.1.0.tgz"
+      }
+    },
+    "1.1.1": {
+      "name": "fast-stream",
+      "version": "1.1.1",
+      "dist": {
+        "shasum": "14be6fb9969942dc7cedaad18533c5a420dc5bac",
+        "tarball": "https://registry.npmjs.org/fast-stream/-/fast-stream-1.1.1.tgz"
+      }
+    },
+    "1.1.2": {
+      "name": "fast-stream",
+      "version": "1.1.2",
+      "dist": {
+        "shasum": "7c92c9e4aab7b8b1df0c81f9b9fdf9d07ef1af63",
+        "tarball": "https://registry.npmjs.org/fast-stream/-/fast-stream-1.1.2.tgz"
+      }
+    },
+    "1.1.3": {
+      "name": "fast-stream",
+      "version": "1.1.3",
+      "dist": {
+        "shasum": "61571b97bee4b24d691af76153a86f090cbb5192",
+        "tarball": "https://registry.npmjs.org/fast-stream/-/fast-stream-1.1.3.tgz"
+      }
+    },
+    "1.1.4": {
+      "name": "fast-stream",
+      "version": "1.1.4",
+      "dist": {
+        "shasum": "bc4bc982879c3cc53c199057046c23a2b030b2e8",
+        "tarball": "https://registry.npmjs.org/fast-stream/-/fast-stream-1.1.4.tgz"
+      }
+    },
+    "1.1.5": {
+      "name": "fast-stream",
+      "version": "1.1.5",
+      "dist": {
+        "shasum": "34d6a3807bc02f19cff6b9488ac0bf5207d7ddce",
+        "tarball": "https://registry.npmjs.org/fast-stream/-/fast-stream-1.1.5.tgz"
+      }
+    },
+    "1.1.6": {
+      "name": "fast-stream",
+      "version": "1.1.6",
+      "dependencies": {
+        "bytes-stream": "~1.0.0",
+        "chunks-stream": "~1.0.0"
+      },
+      "dist": {
+        "shasum": "c93d42b8c0181210d972187d161f8e8e77165c67",
+        "tarball": "https://registry.npmjs.org/fast-stream/-/fast-stream-1.1.6.tgz"
+      }
+    },
+    "1.1.7": {
+      "name": "fast-stream",
+      "version": "1.1.7",
+      "dependencies": {
+        "bytes-stream": "~1.0.0",
+        "chunks-stream": "~1.0.0"
+      },
+      "dist": {
+        "shasum": "f0e88f5c0e842a449c8644d97e3651b927bcae22",
+        "tarball": "https://registry.npmjs.org/fast-stream/-/fast-stream-1.1.7.tgz"
+      }
+    },
+    "1.2.0": {
+      "name": "fast-stream",
+      "version": "1.2.0",
+      "dependencies": {
+        "bytes-stream": "~1.0.0",
+        "chunks-stream": "~1.0.0"
+      },
+      "dist": {
+        "shasum": "01d9bec9f8425b2bed21eb97f80f2483590af1f2",
+        "tarball": "https://registry.npmjs.org/fast-stream/-/fast-stream-1.2.0.tgz"
+      }
+    },
+    "1.2.1": {
+      "name": "fast-stream",
+      "version": "1.2.1",
+      "dependencies": {
+        "bytes-stream": "~1.0.0",
+        "chunks-stream": "~1.0.0"
+      },
+      "dist": {
+        "shasum": "8b2932f937424c527e83bbcb7fec847bd46db4d0",
+        "tarball": "https://registry.npmjs.org/fast-stream/-/fast-stream-1.2.1.tgz"
+      }
+    },
+    "1.2.2": {
+      "name": "fast-stream",
+      "version": "1.2.2",
+      "dependencies": {
+        "bytes-stream": "~1.0.0",
+        "chunks-stream": "~1.0.0"
+      },
+      "dist": {
+        "shasum": "b43a4c806a3865b84ec92b6d7772c5e08c69698d",
+        "tarball": "https://registry.npmjs.org/fast-stream/-/fast-stream-1.2.2.tgz"
+      }
+    },
+    "1.2.3": {
+      "name": "fast-stream",
+      "version": "1.2.3",
+      "dependencies": {
+        "bytes-stream": "~1.0.0",
+        "chunks-stream": "~1.0.0"
+      },
+      "dist": {
+        "shasum": "5f400d438533dce77bd126153d17b5f57ae07875",
+        "tarball": "https://registry.npmjs.org/fast-stream/-/fast-stream-1.2.3.tgz"
+      }
+    },
+    "2.0.0": {
+      "name": "fast-stream",
+      "version": "2.0.0",
+      "dependencies": {
+        "bytes-stream": "~1.0.0",
+        "chunks-stream": "~1.0.0"
+      },
+      "dist": {
+        "shasum": "461289160163df85639ec6a1eed4a24b687e020e",
+        "tarball": "https://registry.npmjs.org/fast-stream/-/fast-stream-2.0.0.tgz"
+      }
+    },
+    "2.0.1": {
+      "name": "fast-stream",
+      "version": "2.0.1",
+      "dependencies": {
+        "bytes-stream": "~1.0.0",
+        "chunks-stream": "~1.0.0"
+      },
+      "dist": {
+        "shasum": "26c6589373e6c07edec0ad1fd245184cb20c451e",
+        "tarball": "https://registry.npmjs.org/fast-stream/-/fast-stream-2.0.1.tgz"
+      }
+    },
+    "2.0.2": {
+      "name": "fast-stream",
+      "version": "2.0.2",
+      "dependencies": {
+        "bytes-stream": "~1.0.0",
+        "chunks-stream": "~1.0.0"
+      },
+      "dist": {
+        "shasum": "0b26ef6950e5d313db178296ecdb5c7e6ebfa908",
+        "tarball": "https://registry.npmjs.org/fast-stream/-/fast-stream-2.0.2.tgz"
+      }
+    },
+    "2.1.0": {
+      "name": "fast-stream",
+      "version": "2.1.0",
+      "dependencies": {
+        "bytes-stream": "~1.0.0",
+        "chunks-stream": "~1.0.0"
+      },
+      "dist": {
+        "shasum": "844cb20d28137c0ef228eac1e8ea3dcfdebaeb8d",
+        "tarball": "https://registry.npmjs.org/fast-stream/-/fast-stream-2.1.0.tgz"
+      }
+    },
+    "2.1.1": {
+      "name": "fast-stream",
+      "version": "2.1.1",
+      "dependencies": {
+        "bytes-stream": "~1.0.0",
+        "chunks-stream": "~1.0.0"
+      },
+      "dist": {
+        "shasum": "173e62026e5c57a216009396b3039c8076e49790",
+        "tarball": "https://registry.npmjs.org/fast-stream/-/fast-stream-2.1.1.tgz"
+      }
+    },
+    "2.1.2": {
+      "name": "fast-stream",
+      "version": "2.1.2",
+      "dependencies": {
+        "bytes-stream": "~1.0.0",
+        "chunks-stream": "~1.0.0"
+      },
+      "dist": {
+        "shasum": "ee5abe650de78e1fdd176604d4c63103a0263a5e",
+        "tarball": "https://registry.npmjs.org/fast-stream/-/fast-stream-2.1.2.tgz"
+      }
+    },
+    "2.2.0": {
+      "name": "fast-stream",
+      "version": "2.2.0",
+      "dependencies": {
+        "bytes-stream": "~1.0.0",
+        "chunks-stream": "~1.0.0",
+        "mimehttp": "~1.0.0"
+      },
+      "dist": {
+        "shasum": "7489fa0e5525779bafd2c87765cb2d99b45c6de2",
+        "tarball": "https://registry.npmjs.org/fast-stream/-/fast-stream-2.2.0.tgz"
+      }
+    },
+    "2.2.1": {
+      "name": "fast-stream",
+      "version": "2.2.1",
+      "dependencies": {
+        "bytes-stream": "~1.0.0",
+        "chunks-stream": "~1.0.0",
+        "mimehttp": "~1.0.0"
+      },
+      "dist": {
+        "shasum": "ae2b01a96f8aabc369f8aa055dbef6e43de8e944",
+        "tarball": "https://registry.npmjs.org/fast-stream/-/fast-stream-2.2.1.tgz"
+      }
+    },
+    "2.2.2": {
+      "name": "fast-stream",
+      "version": "2.2.2",
+      "dependencies": {
+        "bytes-stream": "~1.0.0",
+        "chunks-stream": "~1.1.0",
+        "mimehttp": "~1.0.0"
+      },
+      "dist": {
+        "shasum": "4e7eb19c9775e55a3b2b2fcb337c544e1306c61e",
+        "tarball": "https://registry.npmjs.org/fast-stream/-/fast-stream-2.2.2.tgz"
+      }
+    }
+  },
+  "modified": "2017-02-21T23:03:57.514Z"
+}

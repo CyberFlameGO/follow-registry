@@ -1,0 +1,63 @@
+{
+  "name": "sojs-script",
+  "dist-tags": {
+    "latest": "0.0.4"
+  },
+  "versions": {
+    "0.0.1": {
+      "name": "sojs-script",
+      "version": "0.0.1",
+      "dependencies": {
+        "sojs": "*",
+        "sojs-utility": "*"
+      },
+      "devDependencies": {
+        "sojs-test": "*"
+      },
+      "dist": {
+        "shasum": "f705fb9d6a934dcb9ba3e8eaaafd62ebba720d3d",
+        "tarball": "https://registry.npmjs.org/sojs-script/-/sojs-script-0.0.1.tgz"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    },
+    "0.0.3": {
+      "name": "sojs-script",
+      "version": "0.0.3",
+      "dependencies": {
+        "sojs": "*",
+        "sojs-utility": "*"
+      },
+      "devDependencies": {
+        "sojs-test": "*"
+      },
+      "dist": {
+        "shasum": "2c5ec9e1323cc7b73d0b9809a4a4cb803e52dccc",
+        "tarball": "https://registry.npmjs.org/sojs-script/-/sojs-script-0.0.3.tgz"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    },
+    "0.0.4": {
+      "name": "sojs-script",
+      "version": "0.0.4",
+      "dependencies": {
+        "sojs": "*",
+        "sojs-utility": "*"
+      },
+      "devDependencies": {
+        "sojs-test": "*"
+      },
+      "dist": {
+        "shasum": "9d2dafea9a7da080794e8646f71418d855ea871e",
+        "tarball": "https://registry.npmjs.org/sojs-script/-/sojs-script-0.0.4.tgz"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    }
+  },
+  "modified": "2017-02-23T11:29:04.658Z"
+}

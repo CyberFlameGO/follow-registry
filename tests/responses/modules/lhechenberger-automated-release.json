@@ -1,0 +1,244 @@
+{
+  "name": "@lhechenberger/automated-release",
+  "dist-tags": {
+    "latest": "0.1.19"
+  },
+  "versions": {
+    "0.1.9": {
+      "name": "@lhechenberger/automated-release",
+      "version": "0.1.9",
+      "dependencies": {
+        "conventional-github-releaser": "^1.1.3",
+        "gulp": "github:gulpjs/gulp#4.0",
+        "gulp-conventional-changelog": "^1.1.0",
+        "gulp-git": "^2.0.0",
+        "gulp-util": "^3.0.8",
+        "stream-to-promise": "^2.2.0",
+        "yargs": "^6.6.0"
+      },
+      "devDependencies": {
+        "babel-cli": "^6.23.0",
+        "babel-preset-node6": "^11.0.0",
+        "eslint": "^3.16.0",
+        "eslint-config-lsage": "^0.1.0"
+      },
+      "bin": {
+        "automated-release": "out/bin/automated-release"
+      },
+      "dist": {
+        "shasum": "18393665e2b2a7ab22e10e19d8ea45daeef48cb1",
+        "tarball": "https://registry.npmjs.org/@lhechenberger/automated-release/-/automated-release-0.1.9.tgz"
+      }
+    },
+    "0.1.10": {
+      "name": "@lhechenberger/automated-release",
+      "version": "0.1.10",
+      "dependencies": {
+        "conventional-github-releaser": "^1.1.3",
+        "gulp": "github:gulpjs/gulp#4.0",
+        "gulp-conventional-changelog": "^1.1.0",
+        "gulp-git": "^2.0.0",
+        "gulp-util": "^3.0.8",
+        "stream-to-promise": "^2.2.0",
+        "yargs": "^6.6.0"
+      },
+      "devDependencies": {
+        "babel-cli": "^6.23.0",
+        "babel-preset-node6": "^11.0.0",
+        "eslint": "^3.16.0",
+        "eslint-config-lsage": "^0.1.0"
+      },
+      "bin": {
+        "automated-release": "out/bin/automated-release"
+      },
+      "dist": {
+        "shasum": "993c1449141e1abf5fb056f3df3700fb19c4b03d",
+        "tarball": "https://registry.npmjs.org/@lhechenberger/automated-release/-/automated-release-0.1.10.tgz"
+      }
+    },
+    "0.1.11": {
+      "name": "@lhechenberger/automated-release",
+      "version": "0.1.11",
+      "dependencies": {
+        "conventional-github-releaser": "^1.1.3",
+        "gulp": "github:gulpjs/gulp#4.0",
+        "gulp-conventional-changelog": "^1.1.0",
+        "gulp-git": "^2.0.0",
+        "gulp-util": "^3.0.8",
+        "stream-to-promise": "^2.2.0",
+        "yargs": "^6.6.0"
+      },
+      "devDependencies": {
+        "babel-cli": "^6.23.0",
+        "babel-preset-node6": "^11.0.0",
+        "eslint": "^3.16.0",
+        "eslint-config-lsage": "^0.1.0"
+      },
+      "bin": {
+        "automated-release": "out/bin/automated-release.js"
+      },
+      "dist": {
+        "shasum": "36aefe4b996f2f88dc56f5c417d1be3597087b5f",
+        "tarball": "https://registry.npmjs.org/@lhechenberger/automated-release/-/automated-release-0.1.11.tgz"
+      }
+    },
+    "0.1.13": {
+      "name": "@lhechenberger/automated-release",
+      "version": "0.1.13",
+      "dependencies": {
+        "conventional-github-releaser": "^1.1.3",
+        "gulp": "github:gulpjs/gulp#4.0",
+        "gulp-conventional-changelog": "^1.1.0",
+        "gulp-git": "^2.0.0",
+        "gulp-util": "^3.0.8",
+        "stream-to-promise": "^2.2.0",
+        "yargs": "^6.6.0"
+      },
+      "devDependencies": {
+        "babel-cli": "^6.23.0",
+        "babel-preset-node6": "^11.0.0",
+        "eslint": "^3.16.0",
+        "eslint-config-lsage": "^0.1.0"
+      },
+      "bin": {
+        "automated-release": "out/bin/automated-release.js"
+      },
+      "dist": {
+        "shasum": "7eece04f590fa540c19b0bcc2c45d68479198ed8",
+        "tarball": "https://registry.npmjs.org/@lhechenberger/automated-release/-/automated-release-0.1.13.tgz"
+      }
+    },
+    "0.1.14": {
+      "name": "@lhechenberger/automated-release",
+      "version": "0.1.14",
+      "dependencies": {
+        "axios": "^0.15.3",
+        "conventional-github-releaser": "^1.1.3",
+        "gulp": "github:gulpjs/gulp#4.0",
+        "gulp-conventional-changelog": "^1.1.0",
+        "gulp-git": "^2.0.0",
+        "gulp-util": "^3.0.8",
+        "stream-to-promise": "^2.2.0",
+        "yargs": "^6.6.0"
+      },
+      "devDependencies": {
+        "babel-cli": "^6.23.0",
+        "babel-preset-node6": "^11.0.0",
+        "eslint": "^3.16.0",
+        "eslint-config-lsage": "^0.1.0"
+      },
+      "bin": {
+        "automated-release": "out/bin/automated-release.js"
+      },
+      "dist": {
+        "shasum": "228dc916f99e9ca23e5ed7823c49efe0c0aad82e",
+        "tarball": "https://registry.npmjs.org/@lhechenberger/automated-release/-/automated-release-0.1.14.tgz"
+      }
+    },
+    "0.1.15": {
+      "name": "@lhechenberger/automated-release",
+      "version": "0.1.15",
+      "dependencies": {
+        "axios": "^0.15.3",
+        "conventional-github-releaser": "^1.1.3",
+        "gulp": "github:gulpjs/gulp#4.0",
+        "gulp-conventional-changelog": "^1.1.0",
+        "gulp-util": "^3.0.8",
+        "stream-to-promise": "^2.2.0",
+        "yargs": "^6.6.0"
+      },
+      "devDependencies": {
+        "babel-cli": "^6.23.0",
+        "babel-preset-node6": "^11.0.0",
+        "eslint": "^3.16.0",
+        "eslint-config-lsage": "^0.1.0"
+      },
+      "bin": {
+        "automated-release": "out/bin/automated-release.js"
+      },
+      "dist": {
+        "shasum": "40a4b65f704b299d65c9f494c0f10af5097ceef1",
+        "tarball": "https://registry.npmjs.org/@lhechenberger/automated-release/-/automated-release-0.1.15.tgz"
+      }
+    },
+    "0.1.16": {
+      "name": "@lhechenberger/automated-release",
+      "version": "0.1.16",
+      "dependencies": {
+        "axios": "^0.15.3",
+        "conventional-github-releaser": "^1.1.3",
+        "gulp": "github:gulpjs/gulp#4.0",
+        "gulp-conventional-changelog": "^1.1.0",
+        "gulp-util": "^3.0.8",
+        "stream-to-promise": "^2.2.0",
+        "yargs": "^6.6.0"
+      },
+      "devDependencies": {
+        "babel-cli": "^6.23.0",
+        "babel-preset-node6": "^11.0.0",
+        "eslint": "^3.16.0",
+        "eslint-config-lsage": "^0.1.0"
+      },
+      "bin": {
+        "automated-release": "out/bin/automated-release.js"
+      },
+      "dist": {
+        "shasum": "329df8ec7eec84175255746e57df870e87008263",
+        "tarball": "https://registry.npmjs.org/@lhechenberger/automated-release/-/automated-release-0.1.16.tgz"
+      }
+    },
+    "0.1.18": {
+      "name": "@lhechenberger/automated-release",
+      "version": "0.1.18",
+      "dependencies": {
+        "axios": "^0.15.3",
+        "conventional-github-releaser": "^1.1.3",
+        "gulp": "github:gulpjs/gulp#4.0",
+        "gulp-conventional-changelog": "^1.1.0",
+        "gulp-util": "^3.0.8",
+        "stream-to-promise": "^2.2.0",
+        "yargs": "^6.6.0"
+      },
+      "devDependencies": {
+        "babel-cli": "^6.23.0",
+        "babel-preset-node6": "^11.0.0",
+        "eslint": "^3.16.0",
+        "eslint-config-lsage": "^0.1.0"
+      },
+      "bin": {
+        "automated-release": "out/bin/automated-release.js"
+      },
+      "dist": {
+        "shasum": "58ebc5b827af107c292a9742c825c3bd4cb69661",
+        "tarball": "https://registry.npmjs.org/@lhechenberger/automated-release/-/automated-release-0.1.18.tgz"
+      }
+    },
+    "0.1.19": {
+      "name": "@lhechenberger/automated-release",
+      "version": "0.1.19",
+      "dependencies": {
+        "axios": "^0.15.3",
+        "conventional-github-releaser": "^1.1.3",
+        "gulp": "github:gulpjs/gulp#4.0",
+        "gulp-conventional-changelog": "^1.1.0",
+        "gulp-util": "^3.0.8",
+        "stream-to-promise": "^2.2.0",
+        "yargs": "^6.6.0"
+      },
+      "devDependencies": {
+        "babel-cli": "^6.23.0",
+        "babel-preset-node6": "^11.0.0",
+        "eslint": "^3.16.0",
+        "eslint-config-lsage": "^0.1.0"
+      },
+      "bin": {
+        "automated-release": "out/bin/automated-release.js"
+      },
+      "dist": {
+        "shasum": "0119dfeb5a01de87311185b280d8c52c76c91081",
+        "tarball": "https://registry.npmjs.org/@lhechenberger/automated-release/-/automated-release-0.1.19.tgz"
+      }
+    }
+  },
+  "modified": "2017-02-22T15:04:45.779Z"
+}

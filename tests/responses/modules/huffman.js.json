@@ -1,0 +1,57 @@
+{
+  "name": "huffman.js",
+  "dist-tags": {
+    "latest": "0.2.0"
+  },
+  "versions": {
+    "0.1.0": {
+      "name": "huffman.js",
+      "version": "0.1.0",
+      "devDependencies": {
+        "babel-cli": "^6.10.1",
+        "babel-core": "^6.10.4",
+        "babel-loader": "^6.2.4",
+        "babel-preset-es2015": "^6.9.0",
+        "babel-preset-react": "^6.5.0",
+        "babel-preset-stage-0": "^6.5.0"
+      },
+      "dist": {
+        "shasum": "329766f68df31aa2d77e9c7ac990c67f6580983a",
+        "tarball": "https://registry.npmjs.org/huffman.js/-/huffman.js-0.1.0.tgz"
+      }
+    },
+    "0.1.1": {
+      "name": "huffman.js",
+      "version": "0.1.1",
+      "devDependencies": {
+        "babel-cli": "^6.10.1",
+        "babel-core": "^6.10.4",
+        "babel-loader": "^6.2.4",
+        "babel-preset-es2015": "^6.9.0",
+        "babel-preset-react": "^6.5.0",
+        "babel-preset-stage-0": "^6.5.0"
+      },
+      "dist": {
+        "shasum": "2ff0a8f6d90e6c6ca59c414645c59deccdfade45",
+        "tarball": "https://registry.npmjs.org/huffman.js/-/huffman.js-0.1.1.tgz"
+      }
+    },
+    "0.2.0": {
+      "name": "huffman.js",
+      "version": "0.2.0",
+      "devDependencies": {
+        "babel-cli": "^6.10.1",
+        "babel-core": "^6.10.4",
+        "babel-loader": "^6.2.4",
+        "babel-preset-es2015": "^6.9.0",
+        "babel-preset-react": "^6.5.0",
+        "babel-preset-stage-0": "^6.5.0"
+      },
+      "dist": {
+        "shasum": "c054822645c46a8f758d41bb7b715ac2983142fa",
+        "tarball": "https://registry.npmjs.org/huffman.js/-/huffman.js-0.2.0.tgz"
+      }
+    }
+  },
+  "modified": "2017-02-23T11:22:35.060Z"
+}

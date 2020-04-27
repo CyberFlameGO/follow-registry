@@ -1,9 +1,0 @@
-{
-    "ua": "npm-registry-follower",
-    "registry": "https://replicate.npmjs.com/registry",
-    "skim": "https://replicate.npmjs.com/registry",
-    "seqFile": "/tmp/registry-follow.seq",
-    "concurrency": 100,
-    "inactivity_ms": 3600000,
-    "retries": 5
-}

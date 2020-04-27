@@ -1,0 +1,368 @@
+{
+  "name": "nezha-cli",
+  "dist-tags": {
+    "latest": "0.0.10"
+  },
+  "versions": {
+    "0.0.1": {
+      "name": "nezha-cli",
+      "version": "0.0.1",
+      "dependencies": {
+        "chalk": "^1.1.3",
+        "co": "^4.6.0",
+        "co-mmander": "^0.1.0",
+        "commander": "^2.9.0",
+        "debug": "^2.6.1",
+        "directory-copy": "^0.1.0",
+        "format": "^0.2.2",
+        "inquirer": "^3.0.1",
+        "mkdirp": "^0.5.1",
+        "moment": "^2.17.1"
+      },
+      "bin": {
+        "nezha": "bin/nezha"
+      },
+      "dist": {
+        "shasum": "b7c57d95cb5d3821e71ea5aa3701322573989bdd",
+        "tarball": "https://registry.npmjs.org/nezha-cli/-/nezha-cli-0.0.1.tgz"
+      }
+    },
+    "0.0.2": {
+      "name": "nezha-cli",
+      "version": "0.0.2",
+      "dependencies": {
+        "chalk": "^1.1.3",
+        "co": "^4.6.0",
+        "co-mmander": "^0.1.0",
+        "commander": "^2.9.0",
+        "debug": "^2.6.1",
+        "directory-copy": "^0.1.0",
+        "format": "^0.2.2",
+        "inquirer": "^3.0.1",
+        "mkdirp": "^0.5.1",
+        "moment": "^2.17.1"
+      },
+      "bin": {
+        "nezha": "bin/nezha"
+      },
+      "dist": {
+        "shasum": "5990b2c389f36c5bf5b300efc1dc5e3c2f4a774f",
+        "tarball": "https://registry.npmjs.org/nezha-cli/-/nezha-cli-0.0.2.tgz"
+      }
+    },
+    "0.0.3": {
+      "name": "nezha-cli",
+      "version": "0.0.3",
+      "dependencies": {
+        "chalk": "^1.1.3",
+        "co": "^4.6.0",
+        "co-mmander": "^0.1.0",
+        "commander": "^2.9.0",
+        "debug": "^2.6.1",
+        "directory-copy": "^0.1.0",
+        "format": "^0.2.2",
+        "inquirer": "^3.0.1",
+        "mkdirp": "^0.5.1",
+        "moment": "^2.17.1"
+      },
+      "bin": {
+        "nezha": "bin/nezha"
+      },
+      "dist": {
+        "shasum": "db7d2328ad03cfb446924017684573974d2ab8d5",
+        "tarball": "https://registry.npmjs.org/nezha-cli/-/nezha-cli-0.0.3.tgz"
+      }
+    },
+    "0.0.4": {
+      "name": "nezha-cli",
+      "version": "0.0.4",
+      "dependencies": {
+        "chalk": "^1.1.3",
+        "co": "^4.6.0",
+        "co-mmander": "^0.1.0",
+        "commander": "^2.9.0",
+        "debug": "^2.6.1",
+        "directory-copy": "^0.1.0",
+        "format": "^0.2.2",
+        "inquirer": "^3.0.1",
+        "mkdirp": "^0.5.1",
+        "moment": "^2.17.1"
+      },
+      "bin": {
+        "nezha": "bin/nezha"
+      },
+      "dist": {
+        "shasum": "aa2d81117156e486cf66569d38220afee030cd57",
+        "tarball": "https://registry.npmjs.org/nezha-cli/-/nezha-cli-0.0.4.tgz"
+      }
+    },
+    "0.0.5": {
+      "name": "nezha-cli",
+      "version": "0.0.5",
+      "dependencies": {
+        "chalk": "^1.1.3",
+        "co": "^4.6.0",
+        "co-mmander": "^0.1.0",
+        "commander": "^2.9.0",
+        "debug": "^2.6.1",
+        "directory-copy": "^0.1.0",
+        "format": "^0.2.2",
+        "inquirer": "^3.0.1",
+        "mkdirp": "^0.5.1",
+        "moment": "^2.17.1"
+      },
+      "bin": {
+        "nezha": "bin/nezha"
+      },
+      "dist": {
+        "shasum": "7c353850c958a7d2baae5240f422f9a98f4c3d92",
+        "tarball": "https://registry.npmjs.org/nezha-cli/-/nezha-cli-0.0.5.tgz"
+      }
+    },
+    "0.0.6": {
+      "name": "nezha-cli",
+      "version": "0.0.6",
+      "dependencies": {
+        "chalk": "^1.1.3",
+        "co": "^4.6.0",
+        "co-mmander": "^0.1.0",
+        "commander": "^2.9.0",
+        "debug": "^2.6.1",
+        "directory-copy": "^0.1.0",
+        "format": "^0.2.2",
+        "inquirer": "^3.0.1",
+        "mkdirp": "^0.5.1",
+        "moment": "^2.17.1"
+      },
+      "bin": {
+        "nezha": "bin/nezha"
+      },
+      "dist": {
+        "shasum": "a2dfe3226a005bb97e4b3ac79d7ae6d586d8a080",
+        "tarball": "https://registry.npmjs.org/nezha-cli/-/nezha-cli-0.0.6.tgz"
+      }
+    },
+    "0.0.7": {
+      "name": "nezha-cli",
+      "version": "0.0.7",
+      "dependencies": {
+        "babel-cli": "^6.23.0",
+        "babel-core": "^6.23.1",
+        "babel-loader": "^6.3.2",
+        "babel-plugin-add-module-exports": "^0.2.1",
+        "babel-plugin-transform-decorators-legacy": "^1.3.4",
+        "babel-plugin-typecheck": "^3.9.0",
+        "babel-preset-es2015": "^6.22.0",
+        "babel-preset-stage-0": "^6.22.0",
+        "chalk": "^1.1.3",
+        "co": "^4.6.0",
+        "co-mmander": "^0.1.0",
+        "commander": "^2.9.0",
+        "connect": "^3.5.1",
+        "css-loader": "^0.26.1",
+        "debug": "^2.6.1",
+        "directory-copy": "^0.1.0",
+        "ejs": "^2.5.6",
+        "ejs-html-loader": "^2.0.2",
+        "ejs-loader": "^0.3.0",
+        "extract-text-webpack-plugin": "^2.0.0-rc.3",
+        "file-loader": "^0.10.0",
+        "format": "^0.2.2",
+        "html-loader": "^0.4.4",
+        "html-webpack-plugin": "^2.28.0",
+        "inquirer": "^3.0.1",
+        "less": "^2.7.2",
+        "less-loader": "^2.2.3",
+        "lodash": "^4.17.4",
+        "mkdirp": "^0.5.1",
+        "moment": "^2.17.1",
+        "qs": "^6.3.1",
+        "sass-loader": "^6.0.0",
+        "serve-static": "^1.11.2",
+        "shelljs": "^0.7.6",
+        "style-loader": "^0.13.1",
+        "url-loader": "^0.5.7",
+        "webpack": "^2.2.1",
+        "webpack-dev-middleware": "^1.10.0",
+        "webpack-hot-middleware": "^2.17.0"
+      },
+      "bin": {
+        "nezha": "bin/nezha"
+      },
+      "dist": {
+        "shasum": "fb58233c4b4f650f58d0f287ce9b9c722b8a09f2",
+        "tarball": "https://registry.npmjs.org/nezha-cli/-/nezha-cli-0.0.7.tgz"
+      }
+    },
+    "0.0.8": {
+      "name": "nezha-cli",
+      "version": "0.0.8",
+      "dependencies": {
+        "babel-cli": "^6.23.0",
+        "babel-core": "^6.23.1",
+        "babel-loader": "^6.3.2",
+        "babel-plugin-add-module-exports": "^0.2.1",
+        "babel-plugin-transform-decorators-legacy": "^1.3.4",
+        "babel-plugin-typecheck": "^3.9.0",
+        "babel-preset-es2015": "^6.22.0",
+        "babel-preset-stage-0": "^6.22.0",
+        "chalk": "^1.1.3",
+        "co": "^4.6.0",
+        "co-mmander": "^0.1.0",
+        "commander": "^2.9.0",
+        "connect": "^3.5.1",
+        "css-loader": "^0.26.1",
+        "debug": "^2.6.1",
+        "directory-copy": "^0.1.0",
+        "ejs": "^2.5.6",
+        "ejs-compiled-loader": "^1.1.0",
+        "ejs-html-loader": "^2.0.2",
+        "ejs-loader": "^0.3.0",
+        "ejs-render-loader": "^1.0.0",
+        "extract-text-webpack-plugin": "^2.0.0-rc.3",
+        "file-loader": "^0.10.0",
+        "format": "^0.2.2",
+        "html-loader": "^0.4.4",
+        "html-webpack-plugin": "^2.28.0",
+        "inquirer": "^3.0.1",
+        "less": "^2.7.2",
+        "less-loader": "^2.2.3",
+        "lodash": "^4.17.4",
+        "mkdirp": "^0.5.1",
+        "moment": "^2.17.1",
+        "qs": "^6.3.1",
+        "sass-loader": "^6.0.0",
+        "serve-static": "^1.11.2",
+        "shelljs": "^0.7.6",
+        "style-loader": "^0.13.1",
+        "url-loader": "^0.5.7",
+        "webpack": "^2.2.1",
+        "webpack-dev-middleware": "^1.10.0",
+        "webpack-hot-middleware": "^2.17.0"
+      },
+      "bin": {
+        "nezha": "bin/nezha"
+      },
+      "dist": {
+        "shasum": "105220529a82317c5c0227a39835229a71087250",
+        "tarball": "https://registry.npmjs.org/nezha-cli/-/nezha-cli-0.0.8.tgz"
+      }
+    },
+    "0.0.9": {
+      "name": "nezha-cli",
+      "version": "0.0.9",
+      "dependencies": {
+        "babel-cli": "^6.23.0",
+        "babel-core": "^6.23.1",
+        "babel-loader": "^6.3.2",
+        "babel-plugin-add-module-exports": "^0.2.1",
+        "babel-plugin-transform-decorators-legacy": "^1.3.4",
+        "babel-plugin-typecheck": "^3.9.0",
+        "babel-preset-es2015": "^6.22.0",
+        "babel-preset-stage-0": "^6.22.0",
+        "chalk": "^1.1.3",
+        "co": "^4.6.0",
+        "co-mmander": "^0.1.0",
+        "commander": "^2.9.0",
+        "connect": "^3.5.1",
+        "css-loader": "^0.26.1",
+        "debug": "^2.6.1",
+        "directory-copy": "^0.1.0",
+        "ejs": "^2.5.6",
+        "ejs-compiled-loader": "^1.1.0",
+        "ejs-html-loader": "^2.0.2",
+        "ejs-loader": "^0.3.0",
+        "ejs-render-loader": "^1.0.0",
+        "extract-text-webpack-plugin": "^2.0.0-rc.3",
+        "file-loader": "^0.10.0",
+        "format": "^0.2.2",
+        "html-loader": "^0.4.4",
+        "html-webpack-plugin": "^2.28.0",
+        "inquirer": "^3.0.1",
+        "less": "^2.7.2",
+        "less-loader": "^2.2.3",
+        "lodash": "^4.17.4",
+        "mkdirp": "^0.5.1",
+        "moment": "^2.17.1",
+        "qs": "^6.3.1",
+        "sass-loader": "^6.0.0",
+        "serve-static": "^1.11.2",
+        "shelljs": "^0.7.6",
+        "style-loader": "^0.13.1",
+        "superagent": "^3.4.4",
+        "superagent-promise": "^1.1.0",
+        "url-loader": "^0.5.7",
+        "webpack": "^2.2.1",
+        "webpack-dev-middleware": "^1.10.0",
+        "webpack-hot-middleware": "^2.17.0"
+      },
+      "bin": {
+        "nezha": "bin/nezha"
+      },
+      "dist": {
+        "shasum": "ec4e0e0daf1ec0de36c984d1c8669281940c1063",
+        "tarball": "https://registry.npmjs.org/nezha-cli/-/nezha-cli-0.0.9.tgz"
+      }
+    },
+    "0.0.10": {
+      "name": "nezha-cli",
+      "version": "0.0.10",
+      "dependencies": {
+        "babel-cli": "^6.23.0",
+        "babel-core": "^6.23.1",
+        "babel-loader": "^6.3.2",
+        "babel-plugin-add-module-exports": "^0.2.1",
+        "babel-plugin-import": "^1.1.1",
+        "babel-plugin-transform-decorators-legacy": "^1.3.4",
+        "babel-plugin-typecheck": "^3.9.0",
+        "babel-polyfill": "^6.23.0",
+        "babel-preset-es2015": "^6.22.0",
+        "babel-preset-react": "^6.23.0",
+        "babel-preset-stage-0": "^6.22.0",
+        "chalk": "^1.1.3",
+        "co": "^4.6.0",
+        "co-mmander": "^0.1.0",
+        "commander": "^2.9.0",
+        "connect": "^3.5.1",
+        "css-loader": "^0.26.1",
+        "debug": "^2.6.1",
+        "directory-copy": "^0.1.0",
+        "ejs": "^2.5.6",
+        "ejs-compiled-loader": "^1.1.0",
+        "ejs-html-loader": "^2.0.2",
+        "ejs-loader": "^0.3.0",
+        "ejs-render-loader": "^1.0.0",
+        "extract-text-webpack-plugin": "^2.0.0-rc.3",
+        "file-loader": "^0.10.0",
+        "format": "^0.2.2",
+        "html-loader": "^0.4.4",
+        "html-webpack-plugin": "^2.28.0",
+        "inquirer": "^3.0.1",
+        "less": "^2.7.2",
+        "less-loader": "^2.2.3",
+        "lodash": "^4.17.4",
+        "mkdirp": "^0.5.1",
+        "moment": "^2.17.1",
+        "qs": "^6.3.1",
+        "sass-loader": "^6.0.0",
+        "serve-static": "^1.11.2",
+        "shelljs": "^0.7.6",
+        "style-loader": "^0.13.1",
+        "superagent": "^3.4.4",
+        "superagent-promise": "^1.1.0",
+        "url-loader": "^0.5.7",
+        "webpack": "^2.2.1",
+        "webpack-dev-middleware": "^1.10.0",
+        "webpack-hot-middleware": "^2.17.0"
+      },
+      "bin": {
+        "nezha": "bin/nezha"
+      },
+      "dist": {
+        "shasum": "9b83e9cdb4138dc45d0e84117e63beca549dd581",
+        "tarball": "https://registry.npmjs.org/nezha-cli/-/nezha-cli-0.0.10.tgz"
+      }
+    }
+  },
+  "modified": "2017-02-23T11:42:13.987Z"
+}

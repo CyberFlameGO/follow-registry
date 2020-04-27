@@ -1,0 +1,51 @@
+{
+  "name": "@jag82/note",
+  "dist-tags": {
+    "latest": "1.0.2"
+  },
+  "versions": {
+    "1.0.0": {
+      "name": "@jag82/note",
+      "version": "1.0.0",
+      "devDependencies": {
+        "chokidar-cmd": "^1.2.1",
+        "faucet": "0.0.1",
+        "tap-notify": "^1.0.0",
+        "tape": "^4.6.3"
+      },
+      "dist": {
+        "shasum": "d9f743c39fe0c22a50df7489fe92f3a73fa4a934",
+        "tarball": "https://registry.npmjs.org/@jag82/note/-/note-1.0.0.tgz"
+      }
+    },
+    "1.0.1": {
+      "name": "@jag82/note",
+      "version": "1.0.1",
+      "devDependencies": {
+        "chokidar-cmd": "^1.2.1",
+        "faucet": "0.0.1",
+        "tap-notify": "^1.0.0",
+        "tape": "^4.6.3"
+      },
+      "dist": {
+        "shasum": "838f3c5b29119d2cef57b6e95a5605df7b9e2f19",
+        "tarball": "https://registry.npmjs.org/@jag82/note/-/note-1.0.1.tgz"
+      }
+    },
+    "1.0.2": {
+      "name": "@jag82/note",
+      "version": "1.0.2",
+      "devDependencies": {
+        "chokidar-cmd": "^1.2.1",
+        "faucet": "0.0.1",
+        "tap-notify": "^1.0.0",
+        "tape": "^4.6.3"
+      },
+      "dist": {
+        "shasum": "fc8a856421322271bb317901d93012c6c753e98f",
+        "tarball": "https://registry.npmjs.org/@jag82/note/-/note-1.0.2.tgz"
+      }
+    }
+  },
+  "modified": "2017-02-22T15:20:49.172Z"
+}

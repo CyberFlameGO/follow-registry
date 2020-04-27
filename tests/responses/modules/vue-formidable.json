@@ -1,0 +1,23 @@
+{
+  "name": "vue-formidable",
+  "dist-tags": {
+    "latest": "0.1.0"
+  },
+  "versions": {
+    "0.1.0": {
+      "name": "vue-formidable",
+      "version": "0.1.0",
+      "devDependencies": {
+        "babel-core": "^6.23.1",
+        "babel-loader": "^6.3.2",
+        "babel-preset-env": "^1.1.8",
+        "webpack": "^2.2.1"
+      },
+      "dist": {
+        "shasum": "dd6859c240fef86596be1e9e3341c3aaa6669e0c",
+        "tarball": "https://registry.npmjs.org/vue-formidable/-/vue-formidable-0.1.0.tgz"
+      }
+    }
+  },
+  "modified": "2017-02-21T23:22:53.063Z"
+}

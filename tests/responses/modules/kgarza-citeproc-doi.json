@@ -1,0 +1,25 @@
+{
+  "name": "@kgarza/citeproc-doi",
+  "dist-tags": {
+    "latest": "0.0.1"
+  },
+  "versions": {
+    "0.0.1": {
+      "name": "@kgarza/citeproc-doi",
+      "version": "0.0.1",
+      "dependencies": {
+        "connect": ">=2.2.1 <=2.29.1",
+        "jsdom": ">=0.2.0 <=0.2.14",
+        "request": "2.9.202"
+      },
+      "dist": {
+        "shasum": "964b557446033ded84f02d827a066f8078e9eb4f",
+        "tarball": "https://registry.npmjs.org/@kgarza/citeproc-doi/-/citeproc-doi-0.0.1.tgz"
+      },
+      "engines": {
+        "node": ">=0.6.11 <0.11"
+      }
+    }
+  },
+  "modified": "2017-02-23T11:51:51.479Z"
+}

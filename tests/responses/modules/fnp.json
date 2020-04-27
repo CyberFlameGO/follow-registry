@@ -1,0 +1,108 @@
+{
+  "name": "fnp",
+  "dist-tags": {
+    "latest": "0.0.9"
+  },
+  "versions": {
+    "0.0.1": {
+      "name": "fnp",
+      "version": "0.0.1",
+      "devDependencies": {
+        "typescript": "^2.2.1"
+      },
+      "dist": {
+        "shasum": "5f95ad45035db2266be925dc193c41afa05389f2",
+        "tarball": "https://registry.npmjs.org/fnp/-/fnp-0.0.1.tgz"
+      }
+    },
+    "0.0.2": {
+      "name": "fnp",
+      "version": "0.0.2",
+      "devDependencies": {
+        "typescript": "^2.2.1"
+      },
+      "dist": {
+        "shasum": "4b1e80945b7bb7384dfa08313f85727ab845cf97",
+        "tarball": "https://registry.npmjs.org/fnp/-/fnp-0.0.2.tgz"
+      }
+    },
+    "0.0.3": {
+      "name": "fnp",
+      "version": "0.0.3",
+      "devDependencies": {
+        "typescript": "^2.2.1"
+      },
+      "dist": {
+        "shasum": "be19827ab16272884ec4e33121f275a727ef5203",
+        "tarball": "https://registry.npmjs.org/fnp/-/fnp-0.0.3.tgz"
+      }
+    },
+    "0.0.4": {
+      "name": "fnp",
+      "version": "0.0.4",
+      "devDependencies": {
+        "typescript": "^2.2.1"
+      },
+      "dist": {
+        "shasum": "2ea4053e65a543d93a08a768202b0346ec99b5a4",
+        "tarball": "https://registry.npmjs.org/fnp/-/fnp-0.0.4.tgz"
+      }
+    },
+    "0.0.5": {
+      "name": "fnp",
+      "version": "0.0.5",
+      "devDependencies": {
+        "typescript": "^2.2.1"
+      },
+      "dist": {
+        "shasum": "92a78fc969ebf260d6a7da3ba305de62e233f5c3",
+        "tarball": "https://registry.npmjs.org/fnp/-/fnp-0.0.5.tgz"
+      }
+    },
+    "0.0.6": {
+      "name": "fnp",
+      "version": "0.0.6",
+      "devDependencies": {
+        "typescript": "^2.2.1"
+      },
+      "dist": {
+        "shasum": "f473b40db98d2f7cadd966f5a567d4e8654a6c31",
+        "tarball": "https://registry.npmjs.org/fnp/-/fnp-0.0.6.tgz"
+      }
+    },
+    "0.0.7": {
+      "name": "fnp",
+      "version": "0.0.7",
+      "devDependencies": {
+        "typescript": "^2.3.0-dev.20170223"
+      },
+      "dist": {
+        "shasum": "034338a1eb1c88f3d994ab56cf642c85b8fa859f",
+        "tarball": "https://registry.npmjs.org/fnp/-/fnp-0.0.7.tgz"
+      }
+    },
+    "0.0.8": {
+      "name": "fnp",
+      "version": "0.0.8",
+      "devDependencies": {
+        "typescript": "^2.2.1"
+      },
+      "dist": {
+        "shasum": "34a61d5b9b6ec6e7ab7fcf69eee2a2eb993867e0",
+        "tarball": "https://registry.npmjs.org/fnp/-/fnp-0.0.8.tgz"
+      }
+    },
+    "0.0.9": {
+      "name": "fnp",
+      "version": "0.0.9",
+      "devDependencies": {
+        "typescript": "^2.2.1"
+      },
+      "dist": {
+        "shasum": "3a5697baf72b2968b7b2cf69b724126d660c716c",
+        "tarball": "https://registry.npmjs.org/fnp/-/fnp-0.0.9.tgz"
+      }
+    }
+  },
+  "modified": "2017-02-23T10:59:47.929Z"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "bayes-test-20170221",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": {
+    "1.0.0": {
+      "name": "bayes-test-20170221",
+      "version": "1.0.0",
+      "dist": {
+        "shasum": "009027179a410689bc08237b23c231df2e43318b",
+        "tarball": "https://registry.npmjs.org/bayes-test-20170221/-/bayes-test-20170221-1.0.0.tgz"
+      }
+    }
+  },
+  "modified": "2017-02-22T14:58:47.482Z"
+}
