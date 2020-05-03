@@ -70,14 +70,7 @@ await follow.reset(options)
 
 ## Changes feed
 
-Instead of using the "standard" feed, this pulls the feed and breaks up the data into usable bits:
-
-    {
-        name: .. the module name
-        versions: [ .. version info split into parts ..],
-        tarballs: [ .. all of the tarball data (shasum and url) .. ],
-        json: .. metadata retrieved from the registry
-    }
+Objects returned from the feed are in the [abbreviated format](https://github.com/npm/registry/blob/master/docs/responses/package-metadata.md):
 
 ## Acknowledgements
 

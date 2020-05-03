@@ -75,8 +75,8 @@ describe('follow-registry', function () {
         concurrency: 10
       })) {
         expect(change).to.have.property('name').that.is.a('string')
-        expect(change).to.have.property('versions').that.is.an.instanceof(Array)
-        expect(change).to.have.property('tarballs').that.is.an.instanceof(Array)
+        expect(change).to.have.property('versions')
+        expect(change).to.have.property('dist-tags')
 
         changes++
         await done()
