@@ -50,9 +50,9 @@ const options = {
   }
 }
 
-for await (const { change, done } of followRegistry(options)) {
-  //...do something with change
-  console.info(`${change.name} was updated`)
+for await (const { packument, seq, done } of followRegistry(options)) {
+  //...do something with the change
+  console.info(`${packument.name} was updated in seq ${seq}`)
 
   // signal we are done processing this change
   //
@@ -70,7 +70,7 @@ await follow.reset(options)
 
 ## Changes feed
 
-Objects returned from the feed are in the [abbreviated format](https://github.com/npm/registry/blob/master/docs/responses/package-metadata.md):
+Objects returned from the feed are in the [abbreviated format](https://github.com/npm/registry/blob/master/docs/responses/package-metadata.md).
 
 ## Acknowledgements
 

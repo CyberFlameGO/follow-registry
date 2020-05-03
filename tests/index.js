@@ -69,14 +69,15 @@ describe('follow-registry', function () {
     it('should emit changes', async () => {
       let changes = 0
 
-      for await (const { change, done } of follow({
+      for await (const { packument, seq, done } of follow({
         since: 12657,
         retries: 0,
         concurrency: 10
       })) {
-        expect(change).to.have.property('name').that.is.a('string')
-        expect(change).to.have.property('versions')
-        expect(change).to.have.property('dist-tags')
+        expect(packument).to.have.property('name').that.is.a('string')
+        expect(packument).to.have.property('versions')
+        expect(packument).to.have.property('dist-tags')
+        expect(seq).to.be.a('number')
 
         changes++
         await done()
